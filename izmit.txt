@@ -1,0 +1,3 @@
+select addgeometrycolumn('public', 'ulasim_durak','sekil', 2321,'LINESTRING',2,true);
+
+select UpdateGeometrySRID('public', 'ulasim_durak', 'sekil', 2321) ;
